@@ -1,7 +1,10 @@
 body {
 	margin: 0px;
 	font-family: "Lato";
-	transition: linear 0.2s;
+}
+
+div {
+	transition: linear 0.1s;
 }
 
 a {
@@ -10,14 +13,16 @@ a {
 
 .container {
 	width: 100%;
+	height: 100%;
 	text-align: center;
+	background: #EEE5DE;
 }
 
 .header {
 	font-size: 3em;
 	font-weight: 700;
 	text-shadow: 0px 4px 4px #bbb;
-	margin-top: 50px;
+	padding-top: 50px;
 }
 
 .picture {
@@ -30,10 +35,9 @@ a {
 }
 
 .infobox {
-	background: #bbb;
+	background: #95a5a6;
 	text-align: center;
-	width: 200px;
-	height: 200px;
+	width: 240px;
 	padding: 10px;
 	border-radius: 10px;
 }
@@ -41,34 +45,55 @@ a {
 #hours {
 	position: absolute;
 	top: 127px;
-	left: 10%;
+	left: 8%;
+	height: 180px;
 }
 
-#location {
+#notices {
+	position: absolute;
+	top: 347px;
+	left: 8%;
+}
+
+#moreinfo {
 	position: absolute;
 	top: 127px;
-	right: 10%;
-	height: 300px;
+	right: 8%;
+	height: 325px;
+}
+
+.description-box {
+	margin: 10px;
+	background: white;
+	border-radius: 10px;
+	padding: 5px;
 }
 
 .description {
-	color: white;
-	margin-bottom: 10px;
+	color: black;
+	margin: 5px auto;
+}
+
+.buttonbox {
+	width: 400px;
+	margin: auto;
+	padding: 15px;
+	border-radius: 10px;
 }
 
 .button {
-	background: #bbb;
+	background: #e74c3c;
 	color: white;
 	text-align: center;
 	width: 200px;
 	padding: 10px;
 	border-radius: 10px;
-	box-shadow: 0px 3px #aaa;
+	box-shadow: 0px 3px #c0392b;
 	position: relative;
-	left: 40%;
+	margin: 10px auto;
 }
 
 .button:active {
-	box-shadow: 0px 1px #aaa;
+	box-shadow: 0px 1px #c0392b;
 	transform: translate(0px, 2px);
 }

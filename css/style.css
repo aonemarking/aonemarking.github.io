@@ -47,7 +47,6 @@ a {
 	position: absolute;
 	top: 127px;
 	left: 8%;
-	height: 180px;
 }
 
 #notices {
@@ -68,6 +67,47 @@ a {
 	background: white;
 	border-radius: 10px;
 	padding: 5px;
+}
+
+.dates {
+	width: 200px;
+	text-align: left;
+	margin: 5px auto;
+}
+
+.days {
+	text-align: left;
+	display: inline-block;
+}
+
+#m {
+	display: inline;
+	position: relative;
+	left: 62px;
+}
+
+#t {
+	display: inline;
+	position: relative;
+	left: 61px;
+}
+
+#w {
+	display: inline;
+	position: relative;
+	left: 37px;
+}
+
+#r {
+	display: inline;
+	position: relative;
+	left: 54px;
+}
+
+#f {
+	display: inline;
+	position: relative;
+	left: 75px;
 }
 
 .description {

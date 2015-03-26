@@ -22,11 +22,11 @@ a {
 .header {
 	font-size: 3em;
 	font-weight: 700;
-	padding-top: 50px;
+	padding-top: 30px;
 }
 
 .picture {
-	margin: 20px auto;
+	margin-top: 20px;
 }
 
 .picture img {
@@ -45,19 +45,19 @@ a {
 
 #hours {
 	position: absolute;
-	top: 127px;
+	top: 107px;
 	left: 8%;
 }
 
 #notices {
 	position: absolute;
-	top: 347px;
+	top: 327px;
 	left: 8%;
 }
 
 #moreinfo {
 	position: absolute;
-	top: 127px;
+	top: 107px;
 	right: 8%;
 	height: 325px;
 }
@@ -117,12 +117,18 @@ a {
 
 .buttonbox {
 	width: 400px;
-	margin: auto;
-	padding: 15px;
+	margin: 0px auto;
+	padding: 10px;
 	border-radius: 10px;
 }
 
 .button {
+	width: 220px;
+	position: relative;
+	left: 90px;
+}
+
+.link {
 	background: #e74c3c;
 	color: white;
 	text-align: center;
@@ -130,11 +136,10 @@ a {
 	padding: 10px;
 	border-radius: 10px;
 	box-shadow: 0px 3px #c0392b;
-	position: relative;
 	margin: 10px auto;
 }
 
-.button:active {
+.link:active {
 	box-shadow: 0px 1px #c0392b;
 	transform: translate(0px, 2px);
 }
